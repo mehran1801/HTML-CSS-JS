@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ac58821a29.js" crossorigin="anonymous"></script>
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-['Lato'] min-h-screen flex items-center justify-center bg-[url('project-1.jpg')] bg-no-repeat bg-center bg-cover text-[1.2rem] text-center">
+
+<div class="w-[550px] h-[600px]">
+    <header class="text-[23px] min-[475px]:text-3xl bg-[#262626] text-white rounded-lg py-2 px-1 w-[80%] my-4 mx-auto">
+        <h2 class="" >Javascript Quote Generator</h2>
+    </header>
+    <main class="bg-white h-[330px] w-full flex flex-col items-center px-[15px] py-[30px] rounded-lg shadow-2xl">
+        <div class="">
+            <span id="quoteText" class="leading-10 text-2xl">"If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never
+            have enough."</span>
+        </div>
+        <p id="person" class="uppercase mb-6 text-2xl text-red-500 mt-5 font-['Roboto']">Oprah Winfrey</p>
+        <div>
+        <button id="newQuote" class="bg-[#262626] text-white py-2 px-4 rounded-xl text-2xl mt-3 active:bg-[lightblue]">New Quote</button>
+        </div>
+    </main>
+</div>
+<script src="main.js"></script>
+</body>
+</html>

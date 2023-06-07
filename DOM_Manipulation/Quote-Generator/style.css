@@ -1,0 +1,15 @@
+/* Global Font Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* Lato Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
+.redBorder{
+    border:2px solid red;
+}
+.blueBorder{
+    border:2px solid blue;
+}
+.greenBorder{
+    border:2px solid green;
+}
