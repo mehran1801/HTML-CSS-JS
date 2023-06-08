@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ac58821a29.js" crossorigin="anonymous"></script>
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-['Lato'] min-h-screen flex items-center justify-center bg-[url('project-2.jpg')] bg-no-repeat bg-center bg-cover text-[1.2rem] text-center">
+<button id="modalBtn" class="text-3xl text-gray-100 border-2 border-gray-200  p-4 rounded-lg w-[350px] h-[80px] shadow-xl bg-transparent absolute top-[70%] left-[10%] hover:bg-white hover:text-black/80 transition duration-150 ease-in">Where's Our Modal</button>
+<div id="modalContainer"class="fixed top-0 left-0 w-full h-full z-10 hidden">
+    <div class="bg-white absolute top-1/2 left-1/2 w-[200px] h-[100px] py-2 px-5 rounded-lg text-2xl flex justify-between items-center">
+    <p>Here I am!</p>
+    <div id="close-btn" class="text-5xl text-[red] cursor-pointer">&times;</div>
+</div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
