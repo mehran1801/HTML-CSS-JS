@@ -1,6 +1,6 @@
 # Modal
 ## CSS
-- different ** width ** properties based on the content, like min-content, max-content and the best of both worlds * fit-content *, these properties can be used for box-sizing and grid column sizing.
+- different **width** properties based on the content, like min-content, max-content and the best of both worlds * fit-content *, these properties can be used for box-sizing and grid column sizing.
 - transform has different functions, they are mainly used for animations.
 - I am skipping animation for now
 ---
