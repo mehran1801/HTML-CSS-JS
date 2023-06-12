@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ac58821a29.js" crossorigin="anonymous"></script>
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-['Lato'] min-h-screen flex items-center justify-center bg-[url('table.png')] bg-no-repeat bg-center bg-cover text-[1.2rem] text-center text-white">
+<div class="">
+        <h1 class="text-6xl text-[goldenrod] mb-4 font-bold">Blackjack</h1>
+        <div class="p-4 text-2xl">
+        <p id="message-el" class="mb-4 italic">Want to play a round?</p>
+        <p id="cards-el" class="mb-6">Cards:</p>
+        <p id="sum-el">Sum:</p>
+    </div>
+        <button onclick="startGame()" class="bg-[goldenrod] w-[150px] py-2 rounded-xl text-[#016f32] font-bold">START GAME</button>
+        <button onclick="newCard()" class="bg-[goldenrod] w-[150px] py-2 rounded-xl text-[#016f32] font-bold block mx-auto mt-3">NEW CARD</button>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
