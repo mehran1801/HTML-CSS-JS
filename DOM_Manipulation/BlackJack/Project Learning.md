@@ -19,25 +19,27 @@ Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to t
 Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
 ## CSS
-- different ** width ** properties based on the content, like min-content, max-content and the best of both worlds * fit-content *, these properties can be used for box-sizing and grid column sizing.
+- 
 
 ---
 
 ## Javascript
 
-1.  Difference between document.addEventListener and window.addEventListener?
-The document and window are different objects and they have some different events. Using addEventListener() on them listens to events destined for a different object. You should use the one that actually has the event you are interested in.
+1. <ins>flag variables</ins>
+A flag variable is usually given one value, 0 or 1, True or False. It's used as a Boolean variable where the result toggles between 0 (False) and 1 (True) or as used by the programmer. Some prefer flag = 0 and change it to flag = 1 in the program to perform an action.
+
 ---
 ## Tailwind
 
-1.  Difference between document.addEventListener and window.addEventListener?
-The document and window are different objects and they have some different events. Using addEventListener() on them listens to events destined for a different object. You should use the one that actually has the event you are interested in.
+1. 
 ---
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+- If you have related variables or properties to an entity, put it in an object.
+- when to use bracket notation vs dot notation.
+- Math.random() , Math is an object and random is method in that object.
+- += 
 
-To see how you can add code snippets, see below:
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
@@ -60,30 +62,6 @@ const proudOfThisFunc = () => {
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
-**bold text**
-> Put text here as blockquote with the line at the start.
-
-## Tables
-
-| Left columns  | Right columns |
-| ------------- |:-------------:|
-| left foo      | right foo     |
-| left bar      | right bar     |
-| left baz      | right baz     |
-
-## Blocks of code
-
-```
-let message = 'Hello world';
-alert(message);
-```
-
-## Inline code
-
-This web site is using `markedjs/marked`.
-
-
 
 
 
